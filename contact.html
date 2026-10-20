@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact — Eye Drive School of Motoring, London N21</title>
+<meta name="description" content="Book driving lessons with Eye Drive School of Motoring, London N21. Call 07836 763 603 or email eyedriveschool@gmail.com.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="site">
+  <div class="wrap nav">
+    <a class="logo" href="index.html"><i class="bi bi-steering-wheel"></i>Eye<span>Drive</span></a>
+    <button class="nav-toggle" aria-label="Open menu" aria-expanded="false"><i class="bi bi-list"></i></button>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="services.html">Lessons</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="contact.html" class="active">Contact</a></li>
+      <li><a class="nav-cta" href="tel:+447836763603"><i class="bi bi-telephone-fill"></i> 07836 763 603</a></li>
+    </ul>
+  </div>
+</header>
+
+<section class="page-hero">
+  <div class="wrap">
+    <p class="kicker">Contact</p>
+    <h1>Book your lesson</h1>
+    <p>Bookings are taken by phone — call to check availability, lesson prices and the best plan for your experience level.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap contact-grid">
+    <div class="info-card">
+      <h3>Get in touch</h3>
+      <div class="info-row"><i class="bi bi-telephone-fill"></i><div><b>Phone (bookings)</b><a href="tel:+447836763603">+44 7836 763603</a></div></div>
+      <div class="info-row"><i class="bi bi-envelope-fill"></i><div><b>Email</b><a href="mailto:eyedriveschool@gmail.com">eyedriveschool@gmail.com</a></div></div>
+      <div class="info-row"><i class="bi bi-geo-alt-fill"></i><div><b>Based in</b>London N21, United Kingdom</div></div>
+      <div class="info-row"><i class="bi bi-patch-check-fill"></i><div><b>Instructor</b>DVSA-approved driving instructor</div></div>
+    </div>
+    <form class="demo-form" onsubmit="return false">
+      <label for="name">Your name</label>
+      <input id="name" type="text" placeholder="e.g. Alex Smith">
+      <label for="phone">Phone number</label>
+      <input id="phone" type="tel" placeholder="Best number to reach you">
+      <label for="level">Lesson type</label>
+      <select id="level">
+        <option>Beginner lessons</option>
+        <option>Refresher lessons</option>
+        <option>Intensive course</option>
+        <option>Mock test / test preparation</option>
+      </select>
+      <label for="msg">Message</label>
+      <textarea id="msg" rows="4" placeholder="Tell us about your experience and when you'd like to start"></textarea>
+      <button class="btn btn-amber" type="submit"><i class="bi bi-send-fill"></i> Send enquiry</button>
+      <p style="margin-top:.9rem;font-size:.83rem;color:var(--soft)">Prefer to talk? Call <a href="tel:+447836763603" style="color:var(--amber-d);font-weight:600">07836 763 603</a> — bookings are confirmed by phone.</p>
+    </form>
+  </div>
+</section>
+
+<footer class="site">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <h4>Eye Drive School of Motoring</h4>
+        <p style="font-size:.93rem">Driving tuition in London N21 and the surrounding North London area, with a DVSA-approved instructor.</p>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">Lessons</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Get in touch</h4>
+        <ul>
+          <li><i class="bi bi-telephone"></i> <a href="tel:+447836763603">+44 7836 763603</a></li>
+          <li><i class="bi bi-envelope"></i> <a href="mailto:eyedriveschool@gmail.com">eyedriveschool@gmail.com</a></li>
+          <li><i class="bi bi-geo-alt"></i> London N21, United Kingdom</li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© Eye Drive School of Motoring — design concept only.</span>
+      <span>Bookings by phone: 07836 763 603</span>
+    </div>
+  </div>
+</footer>
+<div class="concept-badge"><i class="bi bi-pencil-square"></i> Design concept</div>
+<script>
+document.querySelector('.nav-toggle').addEventListener('click', function(){
+  var links = document.querySelector('.nav-links');
+  var open = links.classList.toggle('open');
+  this.setAttribute('aria-expanded', open);
+});
+</script>
+</body>
+</html>

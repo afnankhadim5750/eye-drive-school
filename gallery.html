@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Gallery — Eye Drive School of Motoring, London N21</title>
+<meta name="description" content="Photos from lessons with Eye Drive School of Motoring in North London.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="site">
+  <div class="wrap nav">
+    <a class="logo" href="index.html"><i class="bi bi-steering-wheel"></i>Eye<span>Drive</span></a>
+    <button class="nav-toggle" aria-label="Open menu" aria-expanded="false"><i class="bi bi-list"></i></button>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="services.html">Lessons</a></li>
+      <li><a href="gallery.html" class="active">Gallery</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a class="nav-cta" href="tel:+447836763603"><i class="bi bi-telephone-fill"></i> 07836 763 603</a></li>
+    </ul>
+  </div>
+</header>
+
+<section class="page-hero">
+  <div class="wrap">
+    <p class="kicker">Gallery</p>
+    <h1>Life on lessons</h1>
+    <p>A look at the car, the roads and the learning experience around London N21.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <div class="gal">
+      <figure><img src="images/hero.webp" alt="Driving lesson in progress"><figcaption>Lessons on local North London streets</figcaption></figure>
+      <figure><img src="images/car.webp" alt="The dual-control tuition car"><figcaption>The dual-control tuition car</figcaption></figure>
+      <figure><img src="images/lesson.webp" alt="Close-up of hands on the steering wheel"><figcaption>Hands-on coaching, every lesson</figcaption></figure>
+      <figure><img src="images/street.webp" alt="Driving at golden hour"><figcaption>Real roads, real conditions</figcaption></figure>
+      <figure><img src="images/test.webp" alt="A happy newly qualified driver"><figcaption>Test day success</figcaption></figure>
+      <figure><img src="images/hero.webp" alt="Instructor and learner during a lesson" style="object-position:top"><figcaption>One-to-one tuition throughout</figcaption></figure>
+    </div>
+    <p style="margin-top:1.4rem;color:var(--soft);font-size:.85rem">Images are illustrative of the lesson experience.</p>
+  </div>
+</section>
+
+<section class="cta-band">
+  <div class="wrap">
+    <h2>Your turn behind the wheel</h2>
+    <p>Book your first lesson with one quick call.</p>
+    <a class="btn" href="tel:+447836763603"><i class="bi bi-telephone-fill"></i> Call 07836 763 603</a>
+  </div>
+</section>
+
+<footer class="site">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <h4>Eye Drive School of Motoring</h4>
+        <p style="font-size:.93rem">Driving tuition in London N21 and the surrounding North London area, with a DVSA-approved instructor.</p>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">Lessons</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Get in touch</h4>
+        <ul>
+          <li><i class="bi bi-telephone"></i> <a href="tel:+447836763603">+44 7836 763603</a></li>
+          <li><i class="bi bi-envelope"></i> <a href="mailto:eyedriveschool@gmail.com">eyedriveschool@gmail.com</a></li>
+          <li><i class="bi bi-geo-alt"></i> London N21, United Kingdom</li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© Eye Drive School of Motoring — design concept only.</span>
+      <span>Bookings by phone: 07836 763 603</span>
+    </div>
+  </div>
+</footer>
+<div class="concept-badge"><i class="bi bi-pencil-square"></i> Design concept</div>
+<script>
+document.querySelector('.nav-toggle').addEventListener('click', function(){
+  var links = document.querySelector('.nav-links');
+  var open = links.classList.toggle('open');
+  this.setAttribute('aria-expanded', open);
+});
+</script>
+</body>
+</html>
